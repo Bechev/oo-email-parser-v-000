@@ -6,7 +6,8 @@ class EmailParser
 
 def parse(email_list)
   email_list_wiht_no_space = email_list.split(" ")
-  parsed_email_list= email_list_wiht_no_space.split(",")
+  parsed_email_list = email_list_wiht_no_space.split(",")
+  parsed_email_list
 end
 
 
