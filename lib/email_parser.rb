@@ -15,7 +15,7 @@ class EmailParser
     parsed_csv_email_list = @email_list.split(",").join
     @email_list = parsed_csv_email_list.split(" ").uniq
   end
-  
-  
+
+
 
 end
