@@ -6,5 +6,7 @@
 
 class EmailParser
 
+def self.parse(email_list)
 
+end
 end
