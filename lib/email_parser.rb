@@ -13,7 +13,7 @@ class EmailParser
 
   def parse
     parsed_csv_email_list = @email_list.split(" ").split(" ")
-    parsed_csv_email_list =
+    parsed_csv_email_list
   end
 
 end
