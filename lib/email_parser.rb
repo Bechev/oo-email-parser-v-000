@@ -7,7 +7,7 @@ def initialize(email_list)
   email_list.parse
 end
 
-def parse(email_list)
+def self.parse(email_list)
   email_list_wiht_no_space = email_list.split(" ")
   parsed_email_list = email_list_wiht_no_space.split(",")
   parsed_email_list
