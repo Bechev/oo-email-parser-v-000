@@ -4,7 +4,9 @@
 # or whitespace (' ').
 class EmailParser
 
-def self.new(email_list)
+def parse(email_list)
+  email_list_wiht_no_space = email_list.split(" ")
+  parsed_email_list= email_list_wiht_no_space.split(",")
   
 end
 
