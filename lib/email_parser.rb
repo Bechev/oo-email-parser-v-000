@@ -11,8 +11,8 @@ class EmailParser
     @email_list = email_list
   end
 
-  def self.parse(email_list)
-    parsed_csv_email_list = email_list.split(", ")
+  def self.parse
+    parsed_csv_email_list = @email_list.split(", ")
     parsed_csv_email_list
   end
 
