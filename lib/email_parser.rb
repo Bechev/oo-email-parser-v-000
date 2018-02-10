@@ -8,8 +8,6 @@ class EmailParser
   @@email_list
   def initialize(email_list)
    @email_list = email_list
-   @email_list.parse
-   @@email_list << @email_list
   end
 
   def parse
