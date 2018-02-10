@@ -13,7 +13,9 @@ class EmailParser
 
   def parse
     parsed_csv_email_list = @email_list.split(",").join
-    parsed_csv_email_list.split(" ")
+    @email_list = parsed_csv_email_list.split(" ").uniq
   end
+  
+  
 
 end
