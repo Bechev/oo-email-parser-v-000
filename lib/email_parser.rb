@@ -8,5 +8,6 @@ class EmailParser
 
   def self.parse(email_list)
     parsed_csv_email_list = email_list.split(", ")
+    parsed_csv_email_list
   end
 end
