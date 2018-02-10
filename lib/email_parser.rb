@@ -6,14 +6,14 @@
 
 class EmailParser
   @@email_list = []
-  
+
   def initialize(email_list)
-    @email_list = email_list.parse(email_list)
+    @email_list = self.parse(email_list)
   end
 
   def self.parse(email_list)
     parsed_csv_email_list = email_list.split(", ")
     parsed_csv_email_list
   end
-  
+
 end
