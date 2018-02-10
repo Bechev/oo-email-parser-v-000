@@ -6,13 +6,13 @@
 
 class EmailParser
   def initialize(email_list)
-   @@email_list = email_list
+   @email_list = email_list
   end
 
   def self.parse
     email_list_with_no_space = @@email_list.split(" ")
-    parsed_email_list = email_list_with_no_space.split(",")
-    parsed_email_list
+    @parsed_email_list = email_list_with_no_space.split(",")
+    @parsed_email_list
   end
 
 
